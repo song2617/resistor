@@ -30,27 +30,27 @@ namespace electronics{
           return wert_;
          break;
           case Unit::milliohm:
-            value=wert_/1000;
+            value=wert_*1000;
             return value;
             break;
           case Unit::ohm:
-            value=wert_/1000000;
+            value=wert_*1000000;
             return value;
             break;
           case Unit::kiloohm:
-            value=wert_/1000000000;
+            value=wert_*1000000000;
             return value;
             break;
           case Unit::megaohm:
-            value=wert_/1000000000000;
+            value=wert_*1000000000000;
             return value;
             break;
           case Unit::gigaohm:
-            value=wert_/1000000000000000;
+            value=wert_*1000000000000000;
             return value;
             break;
           case Unit::teraohm:
-            value=wert_/1000000000000000000;
+            value=wert_*1000000000000000000;
             return value;
             break;
       }
