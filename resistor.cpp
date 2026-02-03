@@ -32,8 +32,8 @@ namespace electronics{
     }
 
     if(wert_==0){return 0;}else{
-    double value2 = double(resistance()/value);
-    return static_cast<int64_t>(value2);
+    //double value2 = static_cast<double>(resistance())/value;
+    return resistance()/value;
     }
   };
 
